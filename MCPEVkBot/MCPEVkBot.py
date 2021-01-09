@@ -26,7 +26,7 @@ class Query(object):
         self.MaxPlayers = answer['MaxPlayers']
 
 
-vk = vk_api.VkApi(token = 'aa46d915d4906efb267f86b1a4a2f68f19a90af174e4eb41c168d2ed7145dc7b1b739aeb39eb0ab62be70')
+vk = vk_api.VkApi(token = '')
 api = vk.get_api()
 longpoll = VkLongPoll(vk)
 
